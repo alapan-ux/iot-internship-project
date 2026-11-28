@@ -1,0 +1,11 @@
+timestamp,source,topic,payload,result
+2026-11-28T12:54:02,temp-01,home/sensor/temperature,"{'value': 31.5, 'unit': 'C'}",VALID; fan=ON
+2026-11-28T12:54:02,fan,home/actuator/fan/command,{'state': 'ON'},COMMAND; fan=ON
+2026-11-28T12:54:02,temp-01,home/sensor/temperature,"{'value': 24.0, 'unit': 'C'}",VALID; fan=OFF
+2026-11-28T12:54:02,fan,home/actuator/fan/command,{'state': 'OFF'},COMMAND; fan=OFF
+2026-11-28T12:54:02,motion-01,home/sensor/motion,{'detected': True},VALID; light=ON
+2026-11-28T12:54:02,light,home/actuator/light/command,{'state': 'ON'},COMMAND; light=ON
+2026-11-28T12:54:02,motion-01,home/sensor/motion,{'detected': False},VALID; light=OFF
+2026-11-28T12:54:02,light,home/actuator/light/command,{'state': 'OFF'},COMMAND; light=OFF
+2026-11-28T12:54:02,temp-01,home/sensor/temperature,"{'value': 'hot', 'unit': 'C'}",ERROR; invalid temperature format
+2026-11-28T12:54:02,motion-01,home/sensor/motion,{'detected': 'yes'},ERROR; invalid motion format

@@ -1,0 +1,8 @@
+WEEK 4 SIMULATION SUMMARY
+Sensor input messages: 6
+Logged events (including actuator commands): 10
+Valid processing / command events: 8
+Rejected malformed messages: 2
+Final fan state: OFF
+Final light state: OFF
+Note: Results are from a local software simulation, not physical hardware testing.
